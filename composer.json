@@ -1,0 +1,21 @@
+{
+    "name": "cangyan/aliyun-opensearch",
+    "description": "阿里云opensearch官方sdk支持composer安装",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mingfeng Wang",
+            "email": "me.wmf@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-0": {
+            "cangyan\\Ali\\": "src/"
+        }
+    }
+}
